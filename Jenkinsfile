@@ -15,6 +15,7 @@ pipeline {
             steps {
                 sh 'mvn compile'
                 echo "complie"
+                echo "pr check"
             }
         }
 
