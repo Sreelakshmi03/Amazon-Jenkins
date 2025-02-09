@@ -15,6 +15,8 @@ pipeline {
             steps {
                 sh 'mvn compile'
                 echo "complie"
+                echo "pr check1"
+                echo "pull cfe"
             }
         }
 
