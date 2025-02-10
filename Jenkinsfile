@@ -11,14 +11,14 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/PraveenKuber/Amazon-Jenkins.git'
             }
         }
-        stage('compile') {
-            steps {
-                sh 'mvn compile'
-                echo "complie"
-                echo "pr check1"
-                echo "pull cfe"
-            }
-        }
+        // stage('compile') {
+        //     steps {
+        //         sh 'mvn compile'
+        //         echo "complie"
+        //         echo "pr check1"
+        //         echo "pull cfe"
+        //     }
+        // }
 
         stage('build') {
             steps {
